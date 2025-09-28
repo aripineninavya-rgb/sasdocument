@@ -1,13 +1,15 @@
-.nav-list {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  list-style-type: none;
-  gap: 30px;
+.nav-list{
+    
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    list-style-type: none; 
+    gap: 30px; 
+}
 
-  .link {
+
+.link{
     text-decoration: none;
     font-weight: bold;
-    color: black;
-  }
+    color: black
 }

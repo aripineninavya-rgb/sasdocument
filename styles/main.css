@@ -380,7 +380,8 @@ template {
   list-style-type: none;
   gap: 30px;
 }
-.nav-list .link {
+
+.link {
   text-decoration: none;
   font-weight: bold;
   color: black;
@@ -400,7 +401,8 @@ footer {
   font-size: 14px;
   font-weight: bold;
 }
-footer .footer {
+
+.footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -410,16 +412,12 @@ footer .footer {
 
 body {
   margin: 30px 70px;
-  max-width: 100%;
   max-width: 3840px;
   background-color: white;
   font-family: "Mulish", sans-serif;
-  font-size: 16px;
-}
-
-.regular-text {
   font-size: 14px;
   font-weight: lighter;
+  color: #111111;
 }
 
 .sections {
@@ -2204,7 +2202,6 @@ body {
   -ms-grid-column: 4;
   -ms-grid-column-span: 1;
   grid-area: 1/4/2/5;
-  font-size: 14px;
 }
 
 .box4 {
@@ -2230,7 +2227,6 @@ body {
   -ms-grid-column: 4;
   -ms-grid-column-span: 1;
   grid-area: 2/4/2/5;
-  font-size: 14px;
 }
 
 .box7 {
@@ -2265,7 +2261,6 @@ body {
   -ms-grid-column: 4;
   -ms-grid-column-span: 1;
   grid-area: 3/4/4/5;
-  font-size: 14px;
 }
 
 .box11 {
@@ -2292,7 +2287,6 @@ body {
   -ms-grid-column: 4;
   -ms-grid-column-span: 1;
   grid-area: 4/4/5/5;
-  font-size: 14px;
 }
 
 .box14 {
@@ -2303,4 +2297,8 @@ body {
   grid-area: 4/5/5/6;
   -ms-grid-column-align: self-end;
       justify-self: self-end;
+}
+
+.regular-text {
+  font-weight: normal;
 }
