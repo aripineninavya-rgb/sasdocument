@@ -1,3 +1,10 @@
+@import "reset";
+@import "normalize";
+@import "mixins";
+@import "header";
+@import "footer";
+
+
 body{
     margin: 30px 70px;
     max-width: 100%;
@@ -9,21 +16,7 @@ body{
   
 }
 
-.nav-list{
-    
-    display: flex;
-    justify-content: space-between; 
-    align-items: center; 
-    list-style-type: none; 
-    gap: 30px; 
-}
 
-
-.link{
-    text-decoration: none;
-    font-weight: bold;
-    color: black
-}
 
 
 .regular-text{
@@ -206,24 +199,6 @@ body{
     grid-area: 4/5/5/6;
     justify-self: self-end;   
 }
-
-footer{
-    margin-top: 140px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 14px;
-    font-weight: bold;
-}
-
-.footer{
-    display: flex;
-    margin-left: 550px;
-    gap: 50px;
-}
-
-
-
 
 
 
