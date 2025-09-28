@@ -182,3 +182,51 @@ body{
 
 
 
+
+
+
+
+.input-field{
+    border: none;
+    border-bottom: 1px solid #9DBEBB;
+    outline: none;
+    background:transparent ;
+    font-family: "Roboto", sans-serif;
+    
+
+}
+
+.input-field:hover{
+    background-color: burlywood;
+}
+
+
+button{
+    background-color: #4A4FF2;
+    color: #ffffff;
+    border: none;
+    
+    width: 125px;
+    height: 50px;
+    
+}
+
+button:hover{
+    background-color: #FFB039;
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 800px;
+    height: 400px ;
+    
+    
+
+}
+
+
+
+
