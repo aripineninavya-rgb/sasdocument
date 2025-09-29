@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>home</title>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
@@ -20,8 +20,8 @@
                 </a>
             </div>
             <ul class="nav-list">
-                <li><a href="project.html"  class="link">Projects</a></li>
-                <li><a href="contact.html"  class="link">Contact</a></li>
+                <li><a href="pages/project.html"  class="link">Projects</a></li>
+                <li><a href="pages/contact.html"  class="link">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -60,9 +60,9 @@
 
         <section class="sections">
             <div class="flex-container">
-                <div class="main-text">We love work hard and explore new things that’s why 
+                <p class="main-text">We love work hard and explore new things that’s why 
                     we cover lot of things. Check our service list and view details
-                </div>
+                </p>
                 <div>
                     <p>Multimedia</p>
                     <p>Creative design</p>
@@ -78,44 +78,51 @@
                 <div class="line top"></div>     <!-- line above -->
                 <div class="line middle"></div>  <!-- line middle -->
                 <div class="line bottom"></div>   <!-- line bottom -->
-                <div class="box1 text1">Awwwards</div>
-                <div class="box2 text2">Site of the day</div>
+                <div class="box1 text1"><p>Awwwards</p></div>
+                <div class="box2 text2"><p>Site of the day</p></div>
                 <div class="box3">
                     <p class="regular-text">Genesis UI Kit</p>
                     <p>Application that helps to find nearest sport centres in your area</p>
                 </div>
-                <div class="box4">2018</div>
-                <div class="box5 text2">Best navigation</div>
+                <div class="box4"><p>2018</p></div>
+                <div class="box5 text2"><p>Best navigation</p></div>
                 <div class="box6">
                     <p class="regular-text">Genesis Template</p>
                     <p>Application that helps to find nearest sport centres in your area</p>
                 </div>
-                <div class="box7">2018</div>
-                <div class="box8 text1">CSSDesignAwards</div>
-                <div class="box9 text2">Site of the day</div>
+                <div class="box7"><p>2018</p></div>
+                <div class="box8 text1"><p>CSSDesignAwards</p></div>
+                <div class="box9 text2"><p>Site of the day</p></div>
                 <div class="box10">
                     <p class="regular-text">Genesis UI Kit</p>
                     <p>Application that helps to find nearest sport centres in your area</p>
                 </div>
-                <div class="box11">2017</div>
-                <div class="box12 text2">Best navigation</div>
+                <div class="box11"><p>2017</p></div>
+                <div class="box12 text2"><p>Best navigation</p></div>
                 <div class="box13">
                     <p class="regular-text">Genesis Template</p>
                     <p>Application that helps to find nearest sport centres in your area</p>
                 </div>
-                <div class="box14 regular-text">2016</div>
+                <div class="box14"><p>2016</p></div>
             </div>
         </section>
     </main>
 
 
     <footer>
-        <img src="images/Logo.svg" alt="logo">
+        <a href="index.html" class="active">
+            <img src="images/Logo.svg" alt="logo">
+        </a>
         <div class="footer">
-            <p>Projects</p>
-            <p>Contact</p>         
+            <a href="pages/project.html"  class="link">Projects</a>
+            <a href="pages/contact.html"  class="link">Contact</a>         
         </div>
-        <img src="images/icons.svg" alt="social-media">
+         <!-- <img src="../images/icons.svg" alt="social-media"> -->
+        <div>
+        <i class="fa-solid fa-globe"></i>   <!-- LinkedIn -->
+        <i class="fab fa-instagram"></i>  <!-- Instagram -->
+        <i class="fab fa-twitter"></i>    <!-- Twitter -->
+        </div>
     </footer>
     
 </body>
