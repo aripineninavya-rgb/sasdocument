@@ -31,18 +31,27 @@ body{
 }
 
 .first-section-text{
-    font-size: 28px;
+    font-size: 40px;
     font-weight: bold;
-    width: 600px;
+    width: 650px;
+}
 
+.margin{
+   margin-top: 20px;
+   width: 600px;
+}
+
+.Design{
+    font-style: italic;
+    align-self: flex-end;
 }
 
 .first-section{
     display: flex;
-    justify-content: flex-start;
+    
     margin-top: 20px;
-    align-items: flex-end;
-    gap: 200px;     
+    
+    gap: 100px;     
 }
 
 
@@ -70,15 +79,15 @@ body{
 .grid-image12{grid-area:27 / 7 / 33 / 10;}
 
 
-.text{
+.flex-container{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     margin-bottom: 40px;
+
 }
 
 .main-text{
-    font-size: 20px;
+    font-size: 28px;
     font-weight: bold;
     width: 480px;
 }
@@ -181,6 +190,31 @@ body{
 }
 
 
+.project-box{
+   display: grid;
+   align-content:center ;
+    grid-template-rows: repeat(6, 3fr);
+    grid-template-columns: repeat(2,3fr);
+    row-gap: 30px;
+   
+}
+
+.project-box > div {
+    
+bottom: -30px;
+    border-bottom: 1px solid #D8D8D8;
+}
+
+.left{
+font-size: 16px;
+}
+
+.right{
+    font-weight: bold;
+font-size: 16px;
+
+}
+
 
 
 
@@ -219,12 +253,9 @@ button:hover{
 .form{
     display: flex;
     flex-direction: column;
-    gap: 30px;
-    width: 800px;
-    height: 400px ;
+    gap: 20px;
+    width: 330px;
     
-    
-
 }
 
 
