@@ -80,7 +80,7 @@ body{
 
 
 .flex-container{
-    
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -194,18 +194,19 @@ body{
 
 
 .project-box{
+    margin-top: 30px;
    display: grid;
    align-content:center ;
     grid-template-rows: repeat(6, 3fr);
     grid-template-columns: repeat(2,3fr);
-    row-gap: 30px;
+    row-gap: 25px;
    
 }
 
 .project-box > div {
     
 
-    border-bottom: 1px solid #D8D8D8;
+    border-bottom: 1.5px solid #D8D8D8;
 }
 
 .left{

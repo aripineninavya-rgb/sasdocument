@@ -2310,15 +2310,16 @@ body {
 }
 
 .project-box {
+  margin-top: 30px;
   display: -ms-grid;
   display: grid;
   -ms-flex-line-pack: center;
       align-content: center;
-  -ms-grid-rows: 3fr 30px 3fr 30px 3fr 30px 3fr 30px 3fr 30px 3fr;
+  -ms-grid-rows: 3fr 25px 3fr 25px 3fr 25px 3fr 25px 3fr 25px 3fr;
   grid-template-rows: repeat(6, 3fr);
   -ms-grid-columns: (3fr)[2];
   grid-template-columns: repeat(2, 3fr);
-  row-gap: 30px;
+  row-gap: 25px;
 }
 
 .project-box > *:nth-child(1) {
@@ -2382,7 +2383,7 @@ body {
 }
 
 .project-box > div {
-  border-bottom: 1px solid #D8D8D8;
+  border-bottom: 1.5px solid #D8D8D8;
 }
 
 .left {
